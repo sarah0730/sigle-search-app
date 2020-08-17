@@ -8,7 +8,7 @@ export interface ListProps {
 export async function queryList(variables:any) {
     return axios.post(list.queryList, { query, variables},{
       headers: {
-        Authorization: `token 730b5a0520c2117c1c27b807b8ed31626ee85769`
+        Authorization: `token 681f469ef7dfcf0570df364aa402e1c7ca10c1ae`
       },
     })
 }
